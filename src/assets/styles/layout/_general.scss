@@ -1,0 +1,43 @@
+body {
+    font-family: $main-font-family !important;
+    background-color: #ffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button,button:focus,button:active {
+    background: none;
+    border: none;
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.link {
+    color: $link-color;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-link {
+    cursor: pointer !important;
+}
+
+ul {
+    padding: 0!important;
+    margin: 0!important;
+    li {
+    margin: 0!important;
+    padding: 0!important;
+    list-style: none;
+   }
+}
+h2{
+    font-family: $main-font-family-bold;
+}
+a{
+    text-decoration: none!important;
+}

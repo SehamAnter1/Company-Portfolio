@@ -1,0 +1,222 @@
+.branding {
+    .branding-header-top-part {
+        img {
+            max-width: 547.94px;
+            max-height: 458px;
+            display: flex;
+            margin: auto;
+            position: relative;
+        }
+                   @media (max-width:768px) {
+                    img {
+                            max-width: 447.94px;
+                    }
+                   }
+  @media (max-width:575px) {
+      img {
+          max-width: 390px;
+      }
+  }
+   @media (max-width:425px) {
+     img {
+         max-width: 300px;
+     }
+ } 
+  @media (max-width:325px) {
+      img {
+          max-width: 240px;
+      }
+  }     .branding-page-header-content {
+            position: absolute;
+            z-index: 9999;
+            top: 17%;
+            left: 50%;
+            transform: translateX(-50%);
+
+            .title {
+                font-size: 130px;
+                font-weight: 600;
+                line-height: 112px;
+            }
+
+            @media (max-width:992px) {
+                .title {
+                    font-size: 110px;
+                }
+
+            }
+
+            @media (max-width:767px) {
+                .title {
+                    font-size: 90px;
+                }
+
+            }
+
+                        @media (max-width:575px) {
+                            .title {
+                                font-size: 70px;
+                            }
+            
+                        }  @media (max-width:400px) {
+                              .title {
+                                  font-size: 59px;
+                              }
+                        
+                          }
+            .description {
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 14px;
+                color: #000000;
+            }
+        }
+    }
+
+    .branding-header-bottom-part {
+        img {
+            max-width: 279px;
+            max-height: 233px;
+            display: flex;
+            margin: auto;
+        }
+
+        .branding-page-header-content {
+            .title {
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+
+            .description {
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: center;
+                background: linear-gradient(90deg, #6079FF 5%, #5498E8 23%, #37E7AE 62%, #35EBAB 64%, #44C5BC 71%, #6A64E8 87%, #7C38FC 94%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+        }
+    }
+
+    .branding-nav-bar .nav-link {
+        font-size: 15px;
+        margin-right: 25px !important;
+
+    }
+        @media (max-width:768px) {
+    
+            .branding-nav-bar .nav-items-parent {
+                display: grid !important;
+                grid-template-columns: repeat(3, 2fr);
+    
+            }
+        }
+        @media (max-width:575px) {
+        
+            .branding-nav-bar .nav-items-parent {
+                grid-template-columns: repeat(3, 2fr);
+                gap:0rem
+
+        
+            }
+        }
+    .home-branding {
+        display: none;
+    }
+
+    //  values
+    .branding-values {
+
+        .values {
+            .title {
+                font-size: 50px;
+
+                background: linear-gradient(90deg, #74BCED 0%, #5491EA 100%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+            @media(max-width:992px){
+                .title {
+                        font-size: 45px;
+                }
+            }
+            @media(max-width:768px){
+                .title {
+                        font-size: 35px;
+                }
+            }
+            @media(max-width:575px){
+                .title {
+                        font-size: 30px;
+                }
+            }
+           
+        }
+    }
+
+    //  elements
+    .branding-elements {
+        .title {
+            font-size: 35px;
+            color: #fff;
+        }
+
+        .example {
+            border-top: 1px solid #747373;
+            border-bottom: 2px solid #747373;
+        }
+
+        @media (max-width:1200px) {
+            .color img {
+                width: 500px;
+                height: 400px;
+            }
+        }
+
+        @media (max-width:768px) {
+
+            .example,
+            .font {
+                gap: 3rem;
+            }
+
+            .color img {
+                width: 400px;
+                height: 350px;
+            }
+        }
+
+        @media (max-width:500px) {
+            .color img {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        @media (max-width:400px) {
+            .color img {
+                width: 250px;
+                height: 220px;
+            }
+        }
+
+        @media (max-width:320px) {
+            .color img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+
+    // clients
+    .our-clients {
+        background-color: #F5F5F7;
+        overflow-x: hidden;
+
+    }
+}

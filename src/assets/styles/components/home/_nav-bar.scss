@@ -1,0 +1,59 @@
+.nav-bar{
+    background-color: $layout-bg-color;
+    .logo{
+        width: 66%;
+    }
+    .nav-items-parent{
+        font-size: 18px;
+        a{
+            color: $navbar-txt-color;
+            &.active{
+                color: $navbar-active-txt-color;
+            }
+        }
+
+    }
+    @media   (max-width:575px) {
+        .container{
+            position: relative;
+        }
+    .navbar-collapse{
+            height: 100vh;
+            background: rgb(14, 14, 17);
+            width: 80%;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            z-index: 99;
+            padding: 20px;
+            transition: .3s linear height;
+            -webkit-transition: .3s linear height;
+            -moz-transition: .3s linear height;
+            -ms-transition: .3s linear height;
+            -o-transition: .3s linear height;
+}
+    .navbar-toggler{
+        z-index: 9999;
+        border: none;
+    }
+    .navbar-toggler-icon{
+        position: fixed;
+        top: 23px;
+        right: 24px;
+        transition:.3s linear all ;
+        -webkit-transition:.3s linear all ;
+        -moz-transition:.3s linear all ;
+        -ms-transition:.3s linear all ;
+        -o-transition:.3s linear all ;
+}
+  .navbar-toggler.collapsed{
+    .navbar-toggler-icon {
+            position: initial!important;
+            
+        }
+  }
+   }
+   .navbar-toggler {
+       border: none;
+   }
+}

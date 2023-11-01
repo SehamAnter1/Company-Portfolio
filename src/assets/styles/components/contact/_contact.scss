@@ -1,0 +1,127 @@
+.ContactSubFooter {
+    .subfooterparent {
+        font-family: 'Codec Pro Ultra' !important;
+
+        .title {
+            font-size: 30px;
+            color: #262626;
+        }
+
+        .heading {
+            font-size: 15px;
+            font-weight: 500;
+            color: #262626;
+            font-family: 'Codec Pro Bold';
+        }
+
+        .item {
+            font-size: 13px;
+            color: #262626;
+
+            a {
+                color: #262626;
+                text-decoration: underline !important;
+            }
+        }
+
+        .content {
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5.5rem;
+        }
+
+        @media(max-width: 992px) {
+            .content {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 2.5rem;
+            }
+        }
+
+        @media(max-width: 768px) {
+            .content {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+        }
+
+        @media(max-width: 400px) {
+            .content {
+                grid-template-columns: repeat(1, 1fr);
+
+            }
+        }
+    }
+
+    // office
+    .office {
+        background-image: url(./../../images/conatctoffice.png);
+        min-height: 100vh;
+        background-size: cover;
+        background-position: right;
+    }
+}
+
+// contact form
+.contactform {
+    border-top:1px solid #777777;
+    background-color: #F6F6F6;
+
+    .title {
+        color: #262626;
+        font-size: 59px;
+    }
+
+    @media(max-width:992px) {
+        .title {
+            font-size: 42px;
+        }
+    }
+
+    .description {
+        font-size: 17px;
+        color: #353535;
+
+        a {
+            color: #2693C1;
+            text-decoration: underline;
+        }
+    }
+
+    .content {
+
+        .form-btn,
+        .form-btn:focus {
+            border: 1px solid #B1B1B1;
+            height: 53px;
+            width: 100%;
+            text-align: start;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            background-color: #fff;
+            padding: 15px 25px;
+            font-size: 17px;
+            color: #8B8B8B;
+            cursor: auto;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .submit-btn {
+            border: 2px solid #959595;
+            border-radius: 70px;
+            -webkit-border-radius: 70px;
+            -moz-border-radius: 70px;
+            -ms-border-radius: 70px;
+            -o-border-radius: 70px;
+            color: #2C2C2C;
+            font-size: 16px;
+            width: 131px;
+            height: 42px;
+            font-family: 'Codec Pro Bold';
+        }
+    }
+}

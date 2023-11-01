@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'Codec Pro Ultra';
+    src: local('Codec Pro Ultra'), local('CodecPro-Ultra'),
+        url('CodecPro-News.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Codec Pro Bold';
+    src: local('Codec Pro Ultra'), local('CodecPro-Ultra'),
+         url('CodecPro-Bold.ttf') format('woff');
+    font-style: normal;
+        font-weight: 900;
+        /* Bold.ttf */
+
+}

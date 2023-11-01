@@ -1,0 +1,13 @@
+// * Accept Cookies * //
+.accept-cookies-section .accept-cookies {
+    flex-wrap: wrap;
+    font-size: 16px;
+    justify-content: space-between;
+    color:$navbar-txt-color;
+
+    .accept-cookies-btn {
+        color: $link-color;
+        cursor: pointer;
+        font-weight: 500;
+    }
+}
