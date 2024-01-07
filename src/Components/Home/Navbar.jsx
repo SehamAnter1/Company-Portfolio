@@ -7,7 +7,7 @@ function Navbar() {
     <div className="nav-bar">
       <nav className="navbar navbar-expand-md ">
         <div className="container">
-          <NavLink className="navbar-brand " to="/">
+          <NavLink className="navbar-brand " to="/company-portfolio/home">
             <img src={logo} className="logo" alt="" />
           </NavLink>
           <button
@@ -23,22 +23,25 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto nav-items-parent">
-              <NavLink className="nav-link " to="/design">
+              <NavLink className="nav-link " to="/company-portfolio/design">
                 Design
               </NavLink>
-              <NavLink className="nav-link " to="/branding">
+              <NavLink className="nav-link " to="/company-portfolio/branding">
                 Branding
               </NavLink>
-              <NavLink className="nav-link " to="/development">
+              <NavLink
+                className="nav-link "
+                to="/company-portfolio/development"
+              >
                 Development
               </NavLink>
-              <NavLink className="nav-link " to="/about">
+              <NavLink className="nav-link " to="/company-portfolio/about">
                 About
               </NavLink>
-              <NavLink className="nav-link " to="/blog">
+              <NavLink className="nav-link " to="/company-portfolio/blog">
                 Blog
               </NavLink>
-              <NavLink className="nav-link " to="/contact">
+              <NavLink className="nav-link " to="/company-portfolio/contact">
                 Contact
               </NavLink>
             </div>

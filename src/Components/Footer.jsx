@@ -11,104 +11,104 @@ function Footer() {
         <ul className="footer-content d-flex justify-content-space-between p-0 py-3 m-0">
           <ul className="footer-column">
             <li className="footer-item heading">
-              <NavLink className="footer-item heading" to="/design">
+              <NavLink className="footer-item heading" to="/company-portfolio/design">
                 Design
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/design#advantages">
+              <NavLink className="footer-item" to="/company-portfolio/design#advantages">
                 Advantages
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/design#cases">
+              <NavLink className="footer-item" to="/company-portfolio/design#cases">
                 Cases
               </NavLink>
             </li>
           </ul>
           <ul className="footer-column">
             <li className="footer-item heading">
-              <NavLink className="footer-item heading" to="/branding">
+              <NavLink className="footer-item heading" to="/company-portfolio/branding">
                 Branding
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/branding#elements">
+              <NavLink className="footer-item" to="/company-portfolio/branding#elements">
                 Elements fo branding
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/branding#advantages">
+              <NavLink className="footer-item" to="/company-portfolio/branding#advantages">
                 Advantages
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/branding#cases">
+              <NavLink className="footer-item" to="/company-portfolio/branding#cases">
                 Cases
               </NavLink>
             </li>
           </ul>
           <ul className="footer-column">
             <li className="footer-item heading">
-              <NavLink className="footer-item heading" to="/development">
+              <NavLink className="footer-item heading" to="/company-portfolio/development">
                 Development
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/development#technology">
+              <NavLink className="footer-item" to="/company-portfolio/development#technology">
                 Technology Stack
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/development#desktop">
+              <NavLink className="footer-item" to="/company-portfolio/development#desktop">
                 Desktop Dev
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/development#mobile">
+              <NavLink className="footer-item" to="/company-portfolio/development#mobile">
                 Mobile Dev
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/development#cases">
+              <NavLink className="footer-item" to="/company-portfolio/development#cases">
                 Cases
               </NavLink>
             </li>
           </ul>
           <ul className="footer-column">
             <li className="footer-item heading">
-              <NavLink className="footer-item heading" to="/about">
+              <NavLink className="footer-item heading" to="/company-portfolio/about">
                 About
               </NavLink>
             </li>
 
             <li className="footer-item">
-              <NavLink className="footer-item " to="/about#mission">
+              <NavLink className="footer-item " to="/company-portfolio/about#mission">
                 Mission
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/about#vslues">
+              <NavLink className="footer-item" to="/company-portfolio/about#vslues">
                 Our Values
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/about#clients">
+              <NavLink className="footer-item" to="/company-portfolio/about#clients">
                 Our Clients
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/about#team">
+              <NavLink className="footer-item" to="/company-portfolio/about#team">
                 Our Team
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/about#mission">
+              <NavLink className="footer-item" to="/company-portfolio/about#mission">
               Careers
               </NavLink>
             </li>
             <li className="footer-item">
-              <NavLink className="footer-item" to="/about#clients">
+              <NavLink className="footer-item" to="/company-portfolio/about#clients">
                 Partnership
               </NavLink>
             </li>
@@ -118,7 +118,7 @@ function Footer() {
             <li className="footer-item">
               <a
                 className="footer-item"
-                href="/https://www.facebook.com/the.three.gate/"
+                href="/"
               >
                 Facebook
               </a>
@@ -131,7 +131,7 @@ function Footer() {
             <li className="footer-item">
               <a
                 className="footer-item"
-                href="https://www.instagram.com/the.three.gates/"
+                href="/"
               >
                 Instagram
               </a>
@@ -139,7 +139,7 @@ function Footer() {
             <li className="footer-item">
               <a
                 className="footer-item"
-                href="https://twitter.com/TheThreegates"
+                href="/"
               >
                 Twitter
               </a>
@@ -147,7 +147,7 @@ function Footer() {
             <li className="footer-item">
               <a
                 className="footer-item"
-                href="https://www.linkedin.com/company/thethreegates/ "
+                href="/ "
               >
                 LinkedIn
               </a>
