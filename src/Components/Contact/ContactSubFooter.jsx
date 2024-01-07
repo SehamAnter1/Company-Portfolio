@@ -12,8 +12,8 @@ function ContactSubFooter() {
                 <li className="item">
                   <p className="">
                     {" "}
-                    16192 Coastal Highway, Lewes, Delaware 19958 USA Phone: +1
-                    302 208 67 18
+                    1111 Coastal Highway, Lewes, Delaware 3232 USA Phone: +1
+                    1111
                   </p>
                 </li>
               </ul>
@@ -21,41 +21,30 @@ function ContactSubFooter() {
                 <li className="heading">Office</li>
                 <li className="item">
                   <p>
-                    29V, Yaroslaviv Val Street, Kyiv, 02000 Egypt Phone: +380
-                    (63) 345 71 83
+                    29V, Yaroslaviv Val Street, Kyiv, 02000 Egypt Phone:
+                    +201021723617
                   </p>
                 </li>
               </ul>
               <ul className="col">
                 <li className="heading">Partners</li>
                 <li className="item">
-                  <p> New York - Andrew Mazok Phone: +1 347 393 40 90</p>
+                  <p> New York - Andrew Mazok Phone:+11111111</p>
                 </li>
               </ul>
               <ul className="col">
                 <li className="heading">Social</li>
                 <li className="item">
                   <p>
-                    <a href="https://www.instagram.com/the.three.gates/">
-                      Instagram,
-                    </a>
-                    <a
-                      className="footer-item"
-                      href="/https://www.facebook.com/the.three.gate/"
-                    >
+                    <a href="/">Instagram,</a>
+                    <a className="footer-item" href="/">
                       Facebook,
                     </a>
-                    <a
-                      className="footer-item"
-                      href="https://www.linkedin.com/company/thethreegates/ "
-                    >
+                    <a className="footer-item" href="/">
                       LinkedIn,
-                                    </a>
-                                    <br></br>
-                    <a
-                      className="footer-item"
-                      href="https://twitter.com/TheThreegates"
-                    >
+                    </a>
+                    <br></br>
+                    <a className="footer-item" href="/">
                       Twitter,
                     </a>
                     <a className="footer-item" href="/">

@@ -7,7 +7,7 @@ import img4 from "./../../assets/images/WhyUs/Vector-2.png";
 import img5 from "./../../assets/images/WhyUs/Vector-3.png";
 import img6 from "./../../assets/images/WhyUs/Vector.png";
 
-const API_URL = "https://fakestoreapi.com/products";
+const API_URL = "https://fakestoreapiserver.reactbd.com/photos";
 
 function SomeCases() {
   const [products, setProducts] = useState([]);
@@ -17,7 +17,8 @@ function SomeCases() {
     axios
       .get(API_URL)
       .then((response) => {
-        setProducts(response.data);
+        const res = response.data.slice(7, 13);
+        setProducts(res);
         setIsLoading(false);
       })
       .catch((error) => {
@@ -81,9 +82,9 @@ function SomeCases() {
           </p>
           <ul className="">
             {products.map((product) => (
-              <li key={product.id}>
+              <li key={product._id}>
                 <img
-                  src={product.image}
+                  src={product.url}
                   className="w-100 my-5"
                   height={500}
                   alt=""

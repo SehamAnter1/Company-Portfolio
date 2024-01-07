@@ -22,7 +22,7 @@
     width: 100%;
     background-position: bottom;
     color: #ffff;
-
+    background-attachment: fixed;
 
     background-repeat: no-repeat;
     transition: background-position 5s ease-in-out;
@@ -54,9 +54,9 @@
     }
 }
 
-// .home-header:hover {
-//     background-position: var(--offsetX, 0) var(--offsetY, 0);
-// }
+.home-header:hover {
+    background-position: var(--offsetX, 0) var(--offsetY, 0);
+}
 
 // branding
 .home-branding-images img {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-const API_URL = "https://fakestoreapi.com/products";
+const API_URL = "https://fakestoreapiserver.reactbd.com/photos";
 
 function DevelopmentWorks() {
   const [products, setProducts] = useState([]);
@@ -67,9 +67,9 @@ function DevelopmentWorks() {
         <div className="container">
           <ul>
             {products.map((product) => (
-              <li key={product.id}>
+              <li key={product._id}>
                 <img
-                  src={product.image}
+                  src={product.url}
                   className="w-100 my-5"
                   height={500}
                   alt=""

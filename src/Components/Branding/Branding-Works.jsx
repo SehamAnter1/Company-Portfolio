@@ -7,7 +7,7 @@ import img4 from "./../../assets/images/WhyUs/Vector-2.png";
 import img5 from "./../../assets/images/WhyUs/Vector-3.png";
 import img6 from "./../../assets/images/WhyUs/Vector.png";
 
-const API_URL = "https://fakestoreapi.com/products";
+const API_URL = "https://fakestoreapiserver.reactbd.com/photos";
 
 function BrandingWorks() {
   const [products, setProducts] = useState([]);
@@ -17,7 +17,9 @@ function BrandingWorks() {
     axios
       .get(API_URL)
       .then((response) => {
-        setProducts(response.data);
+        const res = response.data.slice(0, 6);
+        console.log(res);
+        setProducts(res);
         setIsLoading(false);
       })
       .catch((error) => {
@@ -70,7 +72,7 @@ function BrandingWorks() {
 
   return (
     <>
-      <div className="some-cases  works py-5"  id="cases">
+      <div className="some-cases  works py-5" id="cases">
         <div className="container py-5">
           <div className="px-5">
             <h2 className="title text-black fs-2">Our Works</h2>
@@ -82,9 +84,9 @@ function BrandingWorks() {
           </div>
           <ul>
             {products.map((product) => (
-              <li key={product.id}>
+              <li key={product._id}>
                 <img
-                  src={product.image}
+                  src={product.url}
                   className="w-100 my-5"
                   height={500}
                   alt=""
