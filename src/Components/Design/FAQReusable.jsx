@@ -5,11 +5,11 @@ function FAQReusable() {
     <div className="faq py-5">
       <div className="container pb-5  col-md-10 col-lg-9  mx-auto">
         <h2 className="title py-3">FAQ</h2>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-headingOne">
+        <div className="accordion accordion-flush" id="accordionFlushExample">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-headingOne">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOne"
@@ -21,20 +21,20 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapseOne"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-headingOne"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Our turnaround is lightning-fast. Just one week from signing off
                 and we’re there with the kick-off meeting to get it rolling.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-headingTwo">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-headingTwo">
               <button
-                class="accordion-button px-0  collapsed"
+                className="accordion-button px-0  collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseTwo"
@@ -46,11 +46,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapseTwo"
-              class="accordion-collapse collapse "
+              className="accordion-collapse collapse "
               aria-labelledby="flush-headingTwo"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 It all starts with grabbing a cup of coffee, chilling with
                 mates, and some quality time at the PlayStation (just kidding!).
                 We always start a project with analysis, learning the
@@ -62,10 +62,10 @@ function FAQReusable() {
             </div>
           </div>
 
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-heading4">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-heading4">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapse4"
@@ -77,11 +77,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapse4"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-heading4"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Flexibility is the key of success in this crazy world, so we try
                 to suggest an appropriate solution for each specific case we
                 deal with. The more clear and detailed the requirements are, the
@@ -91,10 +91,10 @@ function FAQReusable() {
             </div>
           </div>
 
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-headingOn">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-headingOn">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOn"
@@ -106,11 +106,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapseOn"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-headingOn"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Each new engagement starts with an introduction call and filling
                 out the design/branding brief. If you have a cool project in
                 mind, feel free to get in touch at{" "}
@@ -119,10 +119,10 @@ function FAQReusable() {
             </div>
           </div>
 
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-heading1O">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-heading1O">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapse1O"
@@ -135,11 +135,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapse1O"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-heading1O"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 We’re all for building a borderless world, so we are open to
                 working with any project we come across. By the way, we do
                 believe in startups, and one of those we helped develop from
@@ -148,10 +148,10 @@ function FAQReusable() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-heading111">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-heading111">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapse111"
@@ -163,11 +163,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapse111"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-heading111"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 We hate to keep you waiting. Setting up a team, making
                 preliminary research and analysis, and getting back to you with
                 the contract will take up to 24 hours from the moment we learn
@@ -175,10 +175,10 @@ function FAQReusable() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-heading11">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-heading11">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapse11"
@@ -190,11 +190,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapse11"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-heading11"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 We set no entry thresholds for people who want to work with us.
                 But we still believe that a product that needs to be designed
                 can’t be made within a couple of days. After all, we need some
@@ -204,10 +204,10 @@ function FAQReusable() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-heading12">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-heading12">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapse12"
@@ -219,21 +219,21 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapse12"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-heading12"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Our team works full-time on every project, so the overall
                 duration will highly depend on the initial estimate. On average,
                 our projects last from 2 weeks to 5 months.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-heading13">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-heading13">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapse13"
@@ -245,11 +245,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapse13"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-heading13"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Wireframes help to build UX without distractions. The wireframe
                 is an essential part of the design process and we would not
                 recommend eliminating it. Having everything polished at the
@@ -258,10 +258,10 @@ function FAQReusable() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-heading113">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-heading113">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapse113"
@@ -273,11 +273,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapse113"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-heading113"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to We
                 don’t use pre-built templates or kits because there’s just no
                 soul in them. We’re committed to building fully customized and
@@ -287,10 +287,10 @@ function FAQReusable() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <span class="accordion-header" id="flush-heading14">
+          <div className="accordion-item">
+            <span className="accordion-header" id="flush-heading14">
               <button
-                class="accordion-button px-0 collapsed"
+                className="accordion-button px-0 collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapse14"
@@ -302,11 +302,11 @@ function FAQReusable() {
             </span>
             <div
               id="flush-collapse14"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="flush-heading14"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Hey, you’ve come to the right place! Please get in touch and
                 we’ll help you with the ideation, design, and development. Full
                 cycle on us, no hassle for you. Easy, right?

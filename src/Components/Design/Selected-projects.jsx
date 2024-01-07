@@ -71,140 +71,140 @@ function SelectedProjects() {
             <div className="container">
               <h2 className="title text-white py-5 ">Selected projects</h2>
             </div>
-            <section class="carousel">
-              <div class="content carouselContent">
+            <section className="carousel">
+              <div className="content carouselContent">
                 <ul>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img2} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img3} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img4} alt="ss" />
                     </div>
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img5} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img6} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                 </ul>
               </div>
             </section>
-            <section class="carousel carousel2">
-              <div class="content carouselContent">
+            <section className="carousel carousel2">
+              <div className="content carouselContent">
                 <ul>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
-                      <img src={img1} alt="ss" />
-                    </div>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <div class="carouselAvatar">
-                      <img src={img1} alt="ss" />
-                    </div>
-                  </li>
-                  <li>
-                    <div class="carouselAvatar">
-                      <img src={img1} alt="ss" />
-                    </div>
-                  </li>
-                  <li>
-                    <div class="carouselAvatar">
-                      <img src={img1} alt="ss" />
-                    </div>
-                  </li>
-                  <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
+                      <img src={img1} alt="ss" />
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div className="carouselAvatar">
+                      <img src={img1} alt="ss" />
+                    </div>
+                  </li>
+                  <li>
+                    <div className="carouselAvatar">
+                      <img src={img1} alt="ss" />
+                    </div>
+                  </li>
+                  <li>
+                    <div className="carouselAvatar">
+                      <img src={img1} alt="ss" />
+                    </div>
+                  </li>
+                  <li>
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
@@ -212,70 +212,70 @@ function SelectedProjects() {
               </div>
             </section>
 
-            <section class="carousel">
-              <div class="content carouselContent">
+            <section className="carousel">
+              <div className="content carouselContent">
                 <ul>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
-                      <img src={img1} alt="ss" />
-                    </div>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <div class="carouselAvatar">
-                      <img src={img1} alt="ss" />
-                    </div>
-                  </li>
-                  <li>
-                    <div class="carouselAvatar">
-                      <img src={img1} alt="ss" />
-                    </div>
-                  </li>
-                  <li>
-                    <div class="carouselAvatar">
-                      <img src={img1} alt="ss" />
-                    </div>
-                  </li>
-                  <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>
                   <li>
-                    <div class="carouselAvatar">
+                    <div className="carouselAvatar">
+                      <img src={img1} alt="ss" />
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div className="carouselAvatar">
+                      <img src={img1} alt="ss" />
+                    </div>
+                  </li>
+                  <li>
+                    <div className="carouselAvatar">
+                      <img src={img1} alt="ss" />
+                    </div>
+                  </li>
+                  <li>
+                    <div className="carouselAvatar">
+                      <img src={img1} alt="ss" />
+                    </div>
+                  </li>
+                  <li>
+                    <div className="carouselAvatar">
                       <img src={img1} alt="ss" />
                     </div>
                   </li>

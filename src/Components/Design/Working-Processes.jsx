@@ -9,10 +9,10 @@ function WorkingProcesses() {
             <img src={reactlogo} alt="react logo" />
           </li>
           <li>
-            <div class="card border-0">
-              <div class="card-body">
+            <div className="card border-0">
+              <div className="card-body">
                 <h2 className="title first">Immersion</h2>
-                <p class="card-text description">
+                <p className="card-text description">
                   Going deep into client’s business to understand its core
                   sense, goals and challenges to build partnership.
                 </p>
@@ -20,10 +20,10 @@ function WorkingProcesses() {
             </div>
           </li>
           <li>
-            <div class="card">
-              <div class="card-body">
+            <div className="card">
+              <div className="card-body">
                 <h2 className="title  second">Ideation</h2>
-                <p class="card-text description">
+                <p className="card-text description">
                   Creating first concepts of a future product and shaping up the
                   direction.
                 </p>
@@ -31,10 +31,10 @@ function WorkingProcesses() {
             </div>
           </li>
           <li>
-            <div class="card">
-              <div class="card-body">
+            <div className="card">
+              <div className="card-body">
                 <h2 className="title third">Wireframing</h2>
-                <p class="card-text description">
+                <p className="card-text description">
                   Building the foundation, structure and core elements of a
                   digital product.
                 </p>
@@ -42,10 +42,10 @@ function WorkingProcesses() {
             </div>
           </li>
           <li>
-            <div class="card">
-              <div class="card-body">
+            <div className="card">
+              <div className="card-body">
                 <h2 className="title fourth">Visual Design</h2>
-                <p class="card-text description">
+                <p className="card-text description">
                   Adding colors, illustrations and shapes to create visual
                   language that resonates with customers.
                 </p>
@@ -53,10 +53,10 @@ function WorkingProcesses() {
             </div>
           </li>
           <li>
-            <div class="card">
-              <div class="card-body">
+            <div className="card">
+              <div className="card-body">
                 <h2 className="title fifth">Handoff & Support</h2>
-                <p class="card-text description">
+                <p className="card-text description">
                   Sending all finalised deliverables and providing further
                   support.
                 </p>

@@ -29,10 +29,7 @@ function Navbar() {
               <NavLink className="nav-link " to="/branding">
                 Branding
               </NavLink>
-              <NavLink
-                className="nav-link "
-                to="/development"
-              >
+              <NavLink className="nav-link " to="/development">
                 Development
               </NavLink>
               <NavLink className="nav-link " to="/about">
