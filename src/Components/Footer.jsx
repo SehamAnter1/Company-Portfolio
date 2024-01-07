@@ -1,6 +1,6 @@
  import React from 'react'
 import logo from "./../assets/images/logo.png";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+// import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 
 function Footer() {
