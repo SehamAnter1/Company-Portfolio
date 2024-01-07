@@ -11,19 +11,16 @@ import Contact from "./Components/Contact/Contact";
 import About from "./Components/About/About";
 function App() {
   return (
-    <Router>
+    <Router basename="/Company-Portfolio">
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/company-portfolio/home" element={<Home />} />
-          <Route path="/company-portfolio/design" element={<Design />} />
-          <Route path="/company-portfolio/branding" element={<Branding />} />
-          <Route
-            path="/company-portfolio/development"
-            element={<Development />}
-          />
-          <Route path="/company-portfolio/contact" element={<Contact />} />
-          <Route path="/company-portfolio/about" element={<About />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/design" element={<Design />} />
+          <Route path="/branding" element={<Branding />} />
+          <Route path="/development" element={<Development />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>
